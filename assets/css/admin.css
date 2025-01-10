@@ -1,0 +1,24 @@
+.pagespeed-test {
+    color: #2271b1 !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.pagespeed-test:hover {
+    color: #135e96 !important;
+}
+
+.pagespeed-test::before {
+    content: '🚀';
+    font-size: 14px;
+    display: inline-block;
+}
+
+.pagespeed-test:focus {
+    box-shadow: none;
+    outline: 1px solid #2271b1;
+    outline-offset: 2px;
+}
